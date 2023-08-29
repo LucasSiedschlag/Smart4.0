@@ -1,0 +1,92 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.19.4
+2 info using node@v16.20.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 warn config production Use `--omit=dev` instead.
+8 timing config:load:cli Completed in 2ms
+9 timing config:load:env Completed in 0ms
+10 timing config:load:file:/data/.npmrc Completed in 0ms
+11 timing config:load:project Completed in 2ms
+12 timing config:load:file:/root/.npmrc Completed in 0ms
+13 timing config:load:user Completed in 0ms
+14 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+15 timing config:load:global Completed in 1ms
+16 timing config:load:validate Completed in 0ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 1ms
+19 timing config:load Completed in 9ms
+20 timing npm:load:configload Completed in 10ms
+21 timing npm:load:mkdirpcache Completed in 3ms
+22 timing npm:load:mkdirplogs Completed in 1ms
+23 verbose title npm install node-red-contrib-s7@3.1.0
+24 verbose argv "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix" "~" "--production" "--engine-strict" "node-red-contrib-s7@3.1.0"
+25 timing npm:load:setTitle Completed in 1ms
+26 timing config:load:flatten Completed in 2ms
+27 timing npm:load:display Completed in 3ms
+28 verbose logfile logs-max:10 dir:/data/.npm/_logs
+29 verbose logfile /data/.npm/_logs/2023-08-28T23_14_25_182Z-debug-0.log
+30 timing npm:load:logFile Completed in 4ms
+31 timing npm:load:timers Completed in 0ms
+32 timing npm:load:configScope Completed in 0ms
+33 timing npm:load Completed in 22ms
+34 timing arborist:ctor Completed in 0ms
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 251ms
+37 timing idealTree:userRequests Completed in 2ms
+38 silly idealTree buildDeps
+39 silly fetch manifest node-red-contrib-s7@3.1.0
+40 timing arborist:ctor Completed in 1ms
+41 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-s7 1435ms (cache miss)
+42 silly placeDep ROOT node-red-contrib-s7@3.1.0 OK for: node-red-project@0.0.1 want: 3.1.0
+43 silly fetch manifest @st-one-io/nodes7@1.1.0
+44 http fetch GET 200 https://registry.npmjs.org/@st-one-io%2fnodes7 2087ms (cache miss)
+45 timing idealTree:#root Completed in 3531ms
+46 silly placeDep ROOT @st-one-io/nodes7@1.1.0 OK for: node-red-contrib-s7@3.1.0 want: 1.1.0
+47 silly fetch manifest iso-on-tcp@^0.1.0
+48 http fetch GET 200 https://registry.npmjs.org/iso-on-tcp 344ms (cache miss)
+49 timing idealTree:node_modules/node-red-contrib-s7 Completed in 348ms
+50 silly placeDep ROOT iso-on-tcp@0.1.0 OK for: @st-one-io/nodes7@1.1.0 want: ^0.1.0
+51 timing idealTree:node_modules/@st-one-io/nodes7 Completed in 1ms
+52 timing idealTree:node_modules/iso-on-tcp Completed in 0ms
+53 timing idealTree:buildDeps Completed in 3881ms
+54 timing idealTree:fixDepFlags Completed in 11ms
+55 timing idealTree Completed in 4152ms
+56 timing reify:loadTrees Completed in 4153ms
+57 timing reify:diffTrees Completed in 10ms
+58 silly reify moves {}
+59 timing reify:retireShallow Completed in 0ms
+60 timing reify:createSparse Completed in 3ms
+61 timing reify:trashOmits Completed in 1ms
+62 timing reify:loadBundles Completed in 0ms
+63 verbose reify failed optional dependency /data/node_modules/fsevents
+64 silly reify mark deleted [ '/data/node_modules/fsevents' ]
+65 timing reifyNode:node_modules/fsevents Completed in 3ms
+66 silly tarball no local data for iso-on-tcp@https://registry.npmjs.org/iso-on-tcp/-/iso-on-tcp-0.1.0.tgz. Extracting by manifest.
+67 silly tarball no local data for @st-one-io/nodes7@https://registry.npmjs.org/@st-one-io/nodes7/-/nodes7-1.1.0.tgz. Extracting by manifest.
+68 silly tarball no local data for node-red-contrib-s7@https://registry.npmjs.org/node-red-contrib-s7/-/node-red-contrib-s7-3.1.0.tgz. Extracting by manifest.
+69 http fetch GET 200 https://registry.npmjs.org/iso-on-tcp/-/iso-on-tcp-0.1.0.tgz 143ms (cache miss)
+70 timing reifyNode:node_modules/iso-on-tcp Completed in 152ms
+71 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-s7/-/node-red-contrib-s7-3.1.0.tgz 1324ms (cache miss)
+72 timing reifyNode:node_modules/node-red-contrib-s7 Completed in 1332ms
+73 http fetch GET 200 https://registry.npmjs.org/@st-one-io/nodes7/-/nodes7-1.1.0.tgz 1631ms (cache miss)
+74 timing reifyNode:node_modules/@st-one-io/nodes7 Completed in 1640ms
+75 timing reify:unpack Completed in 1640ms
+76 timing reify:unretire Completed in 0ms
+77 timing build:queue Completed in 1ms
+78 timing build:deps Completed in 1ms
+79 timing build Completed in 2ms
+80 timing reify:build Completed in 2ms
+81 timing reify:trash Completed in 1ms
+82 timing reify:save Completed in 92ms
+83 timing reify Completed in 5957ms
+84 silly ADD node_modules/iso-on-tcp
+85 silly ADD node_modules/@st-one-io/nodes7
+86 silly ADD node_modules/node-red-contrib-s7
+87 silly ADD
+88 timing command:install Completed in 5961ms
+89 verbose exit 0
+90 timing npm Completed in 6043ms
+91 info ok

@@ -1,0 +1,82 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.19.4
+2 info using node@v16.20.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 24ms
+6 timing config:load:builtin Completed in 24ms
+7 warn config production Use `--omit=dev` instead.
+8 timing config:load:cli Completed in 4ms
+9 timing config:load:env Completed in 0ms
+10 timing config:load:file:/data/.npmrc Completed in 0ms
+11 timing config:load:project Completed in 5ms
+12 timing config:load:file:/root/.npmrc Completed in 2ms
+13 timing config:load:user Completed in 2ms
+14 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+15 timing config:load:global Completed in 1ms
+16 timing config:load:validate Completed in 0ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 1ms
+19 timing config:load Completed in 41ms
+20 timing npm:load:configload Completed in 42ms
+21 timing npm:load:mkdirpcache Completed in 2ms
+22 timing npm:load:mkdirplogs Completed in 0ms
+23 verbose title npm install node-red-contrib-cpu@0.0.4
+24 verbose argv "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix" "~" "--production" "--engine-strict" "node-red-contrib-cpu@0.0.4"
+25 timing npm:load:setTitle Completed in 2ms
+26 timing config:load:flatten Completed in 3ms
+27 timing npm:load:display Completed in 4ms
+28 verbose logfile logs-max:10 dir:/data/.npm/_logs
+29 verbose logfile /data/.npm/_logs/2023-08-28T23_12_59_821Z-debug-0.log
+30 timing npm:load:logFile Completed in 5ms
+31 timing npm:load:timers Completed in 0ms
+32 timing npm:load:configScope Completed in 0ms
+33 timing npm:load Completed in 56ms
+34 timing arborist:ctor Completed in 1ms
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 149ms
+37 timing idealTree:userRequests Completed in 1ms
+38 silly idealTree buildDeps
+39 silly fetch manifest node-red-contrib-cpu@0.0.4
+40 timing arborist:ctor Completed in 0ms
+41 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-cpu 1147ms (cache miss)
+42 silly placeDep ROOT node-red-contrib-cpu@0.0.4 OK for: node-red-project@0.0.1 want: 0.0.4
+43 silly fetch manifest systeminformation@>=3.48.4
+44 http fetch GET 200 https://registry.npmjs.org/systeminformation 249ms (cache miss)
+45 timing idealTree:#root Completed in 1407ms
+46 silly placeDep ROOT systeminformation@5.21.1 OK for: node-red-contrib-cpu@0.0.4 want: >=3.48.4
+47 timing idealTree:node_modules/node-red-contrib-cpu Completed in 1ms
+48 timing idealTree:node_modules/systeminformation Completed in 0ms
+49 timing idealTree:buildDeps Completed in 1409ms
+50 timing idealTree:fixDepFlags Completed in 1ms
+51 timing idealTree Completed in 1565ms
+52 timing reify:loadTrees Completed in 1565ms
+53 timing reify:diffTrees Completed in 4ms
+54 silly reify moves {}
+55 timing reify:retireShallow Completed in 1ms
+56 timing reify:createSparse Completed in 2ms
+57 timing reify:trashOmits Completed in 0ms
+58 timing reify:loadBundles Completed in 0ms
+59 silly tarball no local data for systeminformation@https://registry.npmjs.org/systeminformation/-/systeminformation-5.21.1.tgz. Extracting by manifest.
+60 silly tarball no local data for node-red-contrib-cpu@https://registry.npmjs.org/node-red-contrib-cpu/-/node-red-contrib-cpu-0.0.4.tgz. Extracting by manifest.
+61 http fetch GET 200 https://registry.npmjs.org/systeminformation/-/systeminformation-5.21.1.tgz 107ms (cache miss)
+62 timing reifyNode:node_modules/systeminformation Completed in 111ms
+63 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-cpu/-/node-red-contrib-cpu-0.0.4.tgz 1587ms (cache miss)
+64 timing reifyNode:node_modules/node-red-contrib-cpu Completed in 1593ms
+65 timing reify:unpack Completed in 1593ms
+66 timing reify:unretire Completed in 0ms
+67 timing build:queue Completed in 0ms
+68 timing build:link:node_modules/systeminformation Completed in 2ms
+69 timing build:link Completed in 2ms
+70 timing build:deps Completed in 3ms
+71 timing build Completed in 4ms
+72 timing reify:build Completed in 4ms
+73 timing reify:trash Completed in 0ms
+74 timing reify:save Completed in 36ms
+75 timing reify Completed in 3224ms
+76 silly ADD node_modules/systeminformation
+77 silly ADD node_modules/node-red-contrib-cpu
+78 timing command:install Completed in 3229ms
+79 verbose exit 0
+80 timing npm Completed in 3361ms
+81 info ok
